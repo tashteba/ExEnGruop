@@ -1,0 +1,119 @@
+
+/* CSS pour NavBar  */
+.containerNav {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.listNav{
+    display: flex;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    align-content: center;
+    gap: 40px; 
+}
+li{
+    text-decoration: none;
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+/* CSS pour page contact nous   */
+
+main{
+    /* background-color: rgba(228, 8, 81, 0.712); */
+    background-image: url("illustration.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    
+
+}
+.topContact {
+    padding: 20px;
+    width: 400px;
+    /* background-color:aliceblue; */
+    width: auto;
+}
+.middleContact{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    margin: 100px;
+    width: 200px;
+    justify-content: space-between;
+    /* background-color: aliceblue; */
+    width: auto;
+    align-items: center;
+    gap: 50px;
+}
+.labelContact{
+    font: 1.2em sans-serif;
+    font-style: italic;
+}
+.inputContact{
+    border: none;
+    width: 150px;
+    height: 40px;
+    
+}
+
+.btn {
+    background-color: rgb(88, 159, 178);
+    color: white;
+    padding: 10px 50px;
+    border-radius: 10px 20px;
+}
+
+/* CSS pour page a propse de nous  */
+.containerPropse{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+.leftPropse {
+    font-size: large;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    width: auto;
+    height: 750px;
+    text-align: center;
+    width:auto;
+    margin: 100px 50px;
+    background-image:url(image-ordinateur.png);
+    /* background-position-x: center; */
+    /* background-position-y: center; */
+    
+
+
+}
+
+.rightPropse {
+    text-align: center;
+    background-image: url("illustration.png");
+    transform-box:border-box;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    width: auto;
+    height: auto;
+    margin: 100px 50px;
+}
+.btn2{
+    
+    padding: 10px 50px;
+    border-radius: 10px 20px;
+}
+.h2Propose {
+    color: black;
+}
