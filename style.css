@@ -35,8 +35,22 @@
 
 .h1_propos{
     font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #d05270;
 }
 
 .p_propos{
     font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.illustration_img{
+    width: 160px;
+    height: 160px;
+}
+
+.medium_link, .linkedin_link, .twitter_link{
+    font-size: 10px;
+
 }
