@@ -1,58 +1,3 @@
-.main_article{
-    margin-left: 180px;
-    margin-right: 180px;
-}
-
-.h1_article{
-    font-family: 'Abril Fatface', cursive;
-    font-size: 30px;
-    color: #d05270;
-    padding-bottom: 10px;
-}
-
-.h2_article{
-    color: #4d0fdf;
-    font-family: 'Montserrat', sans-serif;
-    padding-bottom: 30px;
-    padding-top: 15px;
-}
-
-.h3_article{
-    color: #4d0fdf;
-    font-family: 'Montserrat', sans-serif;
-    padding-bottom: 15px;
-    padding-top: 30px;
-}
-
-.p_article{
-    font-family: 'Montserrat', sans-serif;
-}
-
-.img_computer{
-    width: 750px;
-    height: 450px;
-}
-
-.h1_propos{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    color: #d05270;
-}
-
-.p_propos{
-    font-family: 'Montserrat', sans-serif;
-    font-weight: lighter;
-    font-size: 10px;
-}
-
-.illustration_img{
-    width: 160px;
-    height: 160px;
-}
-
-.medium_link, .linkedin_link, .twitter_link{
-    font-size: 10px;
-}
 
 /* CSS pour NavBar  */
 .containerNav {
@@ -82,13 +27,14 @@ a{
 }
 /* CSS pour page contact nous   */
 
-main{
+.main{
     /* background-color: rgba(228, 8, 81, 0.712); */
     background-image: url("illustration.png");
     background-repeat:no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: center;
+    text-align: center;
     
 
 }
@@ -117,8 +63,22 @@ main{
 .inputContact{
     border: none;
     width: 150px;
-    height: 40px;
-    
+    height: 40px;   
+}
+.name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.email{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.message{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
 .btn {
@@ -126,11 +86,12 @@ main{
     color: white;
     padding: 10px 50px;
     border-radius: 10px 20px;
+    margin: 100px;
 }
 
 /* CSS pour page a propse de nous  */
 .containerPropse{
-    color: aliceblue;
+    color: rgb(183, 71, 71);
     display: flex;
     justify-content: space-evenly;
 }
@@ -144,12 +105,17 @@ main{
     text-align: center;
     width:auto;
     margin: 100px 50px;
-    background-image:url(image-ordinateur.png);
-    /* background-position-x: center; */
-    /* background-position-y: center; */
-    
+    background-image:url(pexels-photo-2188870.webp);
+    background-position-x: center; 
+   background-position-y: center;
+    align-items: center;
+}
+.hLeftPropos{
+    color: black;
+}
 
-
+.p_proposD{
+    margin: auto;
 }
 
 .rightPropse {
@@ -164,11 +130,75 @@ main{
     height: auto;
     margin: 100px 50px;
 }
+
+
+/* button in page propse de nous  */
 .btn2{
-    
-    padding: 10px 50px;
-    border-radius: 10px 20px;
+    user-select:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    cursor:pointer;
+    border:none;
+    padding:8px;
+    font-size:20px;
+    margin: 20px;
+    color:black;
+    font-family:cursive;
+    box-sizing:border-box;
 }
+
 .h2Propose {
+    margin: 10px;
     color: black;
 }
+
+
+/* css for page CV */
+
+/* .headCv {
+    display: flex;
+    background-color: antiquewhite;
+    width: auto;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.leftSideHeadCv{
+    width: 30%;
+}
+.imgHeadCv{
+    width: auto;
+    height: 300px;
+}
+.imgSec{
+    height: 60%;
+    width: 70%;
+}
+.secCv{
+    display: flex;
+    justify-content: center;
+    margin: 50px 300px;
+    width: auto;
+    
+}
+.lefSideSecCv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+    
+}
+.rightSideSecCv{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 50%;
+}
+.pSecCv{
+    width: 80%;
+}
+ */
+
+
+
