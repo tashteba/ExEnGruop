@@ -117,3 +117,59 @@ main{
 .h2Propose {
     color: black;
 }
+.main_article{
+    margin-left: 180px;
+    margin-right: 180px;
+}
+
+.h1_article{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 30px;
+    color: #d05270;
+    padding-bottom: 10px;
+}
+
+.h2_article{
+    color: #4d0fdf;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 30px;
+    padding-top: 15px;
+}
+
+.h3_article{
+    color: #4d0fdf;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 15px;
+    padding-top: 30px;
+}
+
+.p_article{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.img_computer{
+    width: 750px;
+    height: 450px;
+}
+
+.h1_propos{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #d05270;
+}
+
+.p_propos{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+}
+
+.illustration_img{
+    width: 160px;
+    height: 160px;
+}
+
+.medium_link, .linkedin_link, .twitter_link{
+    font-size: 10px;
+
+}
