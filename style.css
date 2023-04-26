@@ -148,9 +148,6 @@ a{
 
 
 /* CSS pour page a propse de nous  */
-body{
-    font-family: 'Montserrat', sans-serif;
-}
 .containerPropse{
     color: aliceblue;
     display: flex;
@@ -222,6 +219,8 @@ a{
 }
 
 /* CSS pour page contact nous   */
+body{
+    font-family: 'Montserrat', sans-serif;}
 
 .main{
     /* background-color: rgba(228, 8, 81, 0.712); */
