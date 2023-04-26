@@ -135,6 +135,8 @@ a{
     text-decoration: none;
 }
 /* CSS pour page contact nous   */
+body{
+    font-family: 'Montserrat', sans-serif;}
 
 .main{
     /* background-color: rgba(228, 8, 81, 0.712); */
@@ -183,6 +185,9 @@ a{
 }
 
 /* CSS pour page a propse de nous  */
+body{
+    font-family: 'Montserrat', sans-serif;
+}
 .containerPropse{
     color: aliceblue;
     display: flex;
@@ -253,6 +258,8 @@ a{
     text-decoration: none;
 }
 /* CSS pour page contact nous   */
+body{
+    font-family: 'Montserrat', sans-serif;}
 
 .main{
     /* background-color: rgba(228, 8, 81, 0.712); */
@@ -383,7 +390,7 @@ a{
 
 /* css for page CV */
 
-/* .headCv {
+ .headCv {
     display: flex;
     background-color: antiquewhite;
     width: auto;
@@ -425,7 +432,6 @@ a{
 .pSecCv{
     width: 80%;
 }
- */
 
 
 
