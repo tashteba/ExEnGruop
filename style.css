@@ -28,11 +28,13 @@
 
 .p_article{
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
 
 .img_computer{
-    width: 750px;
-    height: 450px;
+    width: 950px;
+    height: 600px;
+    margin-left: 180px;
 }
 
 
@@ -59,10 +61,6 @@
 }
 
 .medium_link, .linkedin_link, .twitter_link{
-    font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: white;
     width: 200px;
     height: 30px;
 }
@@ -100,9 +98,22 @@ background-color: #47acdf;
 background-color: black;
 }
 
+.imglog{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.linkendpage{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+
 .foot{
     margin-bottom: 350px;
 }
+
 
 
 /* CSS pour Propos Article fin */
