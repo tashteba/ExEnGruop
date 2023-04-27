@@ -144,8 +144,19 @@ li{
 a{
     text-decoration: none;
 }
+/* CSS pour page contact nous   */
+body{
+    font-family: 'Montserrat', sans-serif;}
 
-
+.main{
+    /* background-color: rgba(228, 8, 81, 0.712); */
+    background-image: url("illustration.png");
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    
+}
 /* CSS pour page a propse de nous  */
 .containerPropse{
     color: aliceblue;
