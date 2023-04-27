@@ -15,7 +15,7 @@ Ensuite après vérification et mise en commun des fichiers HTML réalisés ains
 
 ## Finalité
 
-- Passage au validateur sans erreurs. OK
+- Passage au validateur sans erreurs. OK CSS (QQ erreurs html en cours résolution)
 - Utilisation du HTML sémantique. OK
 - Code correctement présenté (Indentation). OK
 - Site au plus proche de la maquette. OK
