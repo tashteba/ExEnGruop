@@ -350,53 +350,115 @@ body{
 
 /* css for page CV */
 
- .headCv {
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: auto;
+ }
+ 
+ .accueil {
     display: flex;
-    background-color: antiquewhite;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: auto;
     height: 400px;
+    margin-right: 180px; 
+    padding-left: 150px; 
+ }
+
+ .gauche {
+    width: 50%;
+ }
+    
+h1 {
+    font-family: 'Abril Fatface', cursive;
+    color: #d05270;
+ }
+
+ h2 {
+    color: rgb(65, 65, 65);
+    font-size: 35px;
+    margin-top: -15px;
+ }
+
+ h4 {
+    color: #d05270;
+ }
+
+ .txtaccueil {
+    color: rgb(65, 65, 65);
+    text-align: justify;
+    padding-right: 200px;
+ }
+
+ .imgdroite {
+    display: flex;
     justify-content: space-evenly;
+    width: auto;
+    height: 280px;
+ }
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 300px;
+    width: 60%;
+    margin-top: 100px;
 }
 
-.leftSideHeadCv{
-    width: 30%;
+.ordi {
+    height: 400px;
+    width: 95%;
 }
-.imgHeadCv{
-    width: auto;
-    height: 300px;
-}
-.imgSec{
-    height: 60%;
+
+.article {
+    text-align: justify;
     width: 70%;
 }
-.secCv{
-    display: flex;
-    justify-content: center;
-    margin: 50px 300px;
-    width: auto;
-    
-}
-.lefSideSecCv{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 50%;
-    
-}
-.rightSideSecCv{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    width: 50%;
-}
-.pSecCv{
-    width: 80%;
+
+.date {
+    font-size: 10px;
+    font-weight: bold;
 }
 
+.social {
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 8px;
+    gap: 10px;
+}
 
+.twitter {
+    border:#47acdf solid ;
+    background-color: #47acdf;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+}
 
+.linkedin { 
+    border: #1275b1 solid;
+    background-color: #1275b1;
+    text-align: center;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+}
+
+.medium {
+    border: black solid;
+    background-color: black;    
+    text-align: center;
+    width: 150px;
+    height: 30px; 
+}
 
 .savoir {
     color: #d05270;
     text-decoration:underline ;
 }
+
+.lienTwitterAccueil { color: white;}
+.lienLinkedinAccueil { color: white;}
+.lienMediumAccueil { color: white;}
