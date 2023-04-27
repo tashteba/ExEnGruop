@@ -28,11 +28,13 @@
 
 .p_article{
     font-family: 'Montserrat', sans-serif;
+    text-align: justify;
 }
 
 .img_computer{
-    width: 750px;
-    height: 450px;
+    width: 950px;
+    height: 600px;
+    margin-left: 180px;
 }
 
 
@@ -59,10 +61,6 @@
 }
 
 .medium_link, .linkedin_link, .twitter_link{
-    font-size: 10px;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    color: white;
     width: 200px;
     height: 30px;
 }
@@ -100,9 +98,22 @@ background-color: #47acdf;
 background-color: black;
 }
 
+.imglog{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+.linkendpage{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+}
+
 .foot{
     margin-bottom: 350px;
 }
+
 
 
 /* CSS pour Propos Article fin */
@@ -134,53 +145,7 @@ li{
 a{
     text-decoration: none;
 }
-/* CSS pour page contact nous   */
 
-.main{
-    /* background-color: rgba(228, 8, 81, 0.712); */
-    background-image: url("illustration.png");
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position-x: center;
-    background-position-y: center;
-    
-
-}
-.topContact {
-    padding: 20px;
-    width: 400px;
-    /* background-color:aliceblue; */
-    width: auto;
-}
-.middleContact{
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-    margin: 100px;
-    width: 200px;
-    justify-content: space-between;
-    /* background-color: aliceblue; */
-    width: auto;
-    align-items: center;
-    gap: 50px;
-}
-.labelContact{
-    font: 1.2em sans-serif;
-    font-style: italic;
-}
-.inputContact{
-    border: none;
-    width: 150px;
-    height: 40px;
-    
-}
-
-.btn {
-    background-color: rgb(88, 159, 178);
-    color: white;
-    padding: 10px 50px;
-    border-radius: 10px 20px;
-}
 
 /* CSS pour page a propse de nous  */
 .containerPropse{
@@ -252,36 +217,38 @@ li{
 a{
     text-decoration: none;
 }
+
 /* CSS pour page contact nous   */
+body{
+    font-family: 'Montserrat', sans-serif;}
 
 .main{
     /* background-color: rgba(228, 8, 81, 0.712); */
     background-image: url("illustration.png");
     background-repeat:no-repeat;
-    background-size: cover;
-    background-position-x: center;
+    background-size: 1100px;
+    background-position-x: right;
     background-position-y: center;
     text-align: center;
-    
-
 }
 .topContact {
     padding: 20px;
     width: 400px;
     /* background-color:aliceblue; */
     width: auto;
+
 }
 .middleContact{
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    margin: 100px;
+    padding-top: 20px;
+    margin: 20px;
     width: 200px;
     justify-content: space-between;
-    /* background-color: aliceblue; */
+    /* background-color: rose */
     width: auto;
     align-items: center;
-    gap: 50px;
+    gap: 20px;
 }
 .labelContact{
     font: 1.2em sans-serif;
@@ -313,8 +280,9 @@ a{
     color: white;
     padding: 10px 50px;
     border-radius: 10px 20px;
-    margin: 100px;
+    margin: 50px;
 }
+
 
 /* CSS pour page a propse de nous  */
 .containerPropse{
@@ -383,7 +351,7 @@ a{
 
 /* css for page CV */
 
-/* .headCv {
+ .headCv {
     display: flex;
     background-color: antiquewhite;
     width: auto;
@@ -425,112 +393,9 @@ a{
 .pSecCv{
     width: 80%;
 }
- */
 
- body {
-    font-family: 'Montserrat', sans-serif;
-    margin: auto;
- }
- 
- .accueil {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    width: auto;
-    height: 400px;
-    margin-right: 300px; 
-    padding-left: 160px; 
- }
 
- .gauche {
-    width: 50%;
- }
-    
-h1 {
-    font-family: 'Abril Fatface', cursive;
-    color: #d05270;
- }
 
- h2 {
-    color: rgb(65, 65, 65);
-    font-size: 35px;
-    margin-top: -15px;
- }
-
- h4 {
-    color: #d05270;
- }
-
- .txtaccueil {
-    color: rgb(65, 65, 65);
-    text-align: justify;
-    padding-right: 200px;
- }
-
- .imgdroite {
-    display: flex;
-    justify-content: space-evenly;
-    width: auto;
-    height: 280px;
- }
-
-.container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 50px 300px;
-    width: 60%;
-    margin-top: 100px;
-}
-
-.ordi {
-    height: 400px;
-    width: 95%;
-}
-
-.article {
-    text-align: justify;
-    width: 70%;
-}
-
-.date {
-    font-size: 10px;
-    font-weight: bold;
-}
-
-.social {
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-size: 8px;
-    gap: 10px;
-}
-
-.twitter {
-    border:#47acdf solid ;
-    background-color: #47acdf;
-    text-align: center;
-    width: 150px;
-    height: 30px;
-}
-
-.linkedin { 
-    border: #1275b1 solid;
-    background-color: #1275b1;
-    text-align: center;
-    text-align: center;
-    width: 150px;
-    height: 30px;
-}
-
-.medium {
-    border: black solid;
-    background-color: black;    
-    text-align: center;
-    width: 150px;
-    height: 30px; 
-}
 
 .savoir {
     color: #d05270;
